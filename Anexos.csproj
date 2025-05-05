@@ -194,6 +194,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Dump20250505 %281%29\anexos_cadastro_cliente.sql" />
+    <Content Include="Dump20250505 %281%29\anexos_login.sql" />
+    <Content Include="Dump20250505 %281%29\anexos_usuarios.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
