@@ -1,0 +1,143 @@
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Anexos.exe.config
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Anexos.exe
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Anexos.pdb
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.csproj.AssemblyReference.cache
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.Form1.resources
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.Properties.Resources.resources
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.csproj.GenerateResource.cache
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.csproj.CoreCompileInputs.cache
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.exe
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.pdb
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.frmHome.resources
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.frmNovoCliente.resources
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.FrmConsultarCliente.resources
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Google.Protobuf.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\MySql.Data.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Buffers.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Memory.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\ZstdSharp.dll
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Google.Protobuf.pdb
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Google.Protobuf.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\MySql.Data.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Buffers.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Memory.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ingrid.slopes7\source\repos\@nexos\Anexos\obj\Debug\Anexos.csproj.Up2Date
+D:\Anexos\bin\Debug\Anexos.exe.config
+D:\Anexos\bin\Debug\Anexos.exe
+D:\Anexos\bin\Debug\Anexos.pdb
+D:\Anexos\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Anexos\bin\Debug\Google.Protobuf.dll
+D:\Anexos\bin\Debug\K4os.Compression.LZ4.dll
+D:\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Anexos\bin\Debug\K4os.Hash.xxHash.dll
+D:\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Anexos\bin\Debug\MySql.Data.dll
+D:\Anexos\bin\Debug\System.Buffers.dll
+D:\Anexos\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Anexos\bin\Debug\System.IO.Pipelines.dll
+D:\Anexos\bin\Debug\System.Memory.dll
+D:\Anexos\bin\Debug\System.Numerics.Vectors.dll
+D:\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Anexos\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Anexos\bin\Debug\ZstdSharp.dll
+D:\Anexos\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Anexos\bin\Debug\Google.Protobuf.pdb
+D:\Anexos\bin\Debug\Google.Protobuf.xml
+D:\Anexos\bin\Debug\K4os.Compression.LZ4.xml
+D:\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Anexos\bin\Debug\K4os.Hash.xxHash.xml
+D:\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Anexos\bin\Debug\MySql.Data.xml
+D:\Anexos\bin\Debug\System.Buffers.xml
+D:\Anexos\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Anexos\bin\Debug\System.IO.Pipelines.xml
+D:\Anexos\bin\Debug\System.Memory.xml
+D:\Anexos\bin\Debug\System.Numerics.Vectors.xml
+D:\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Anexos\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Anexos\obj\Debug\Anexos.csproj.AssemblyReference.cache
+D:\Anexos\obj\Debug\Anexos.Form1.resources
+D:\Anexos\obj\Debug\Anexos.frmHome.resources
+D:\Anexos\obj\Debug\Anexos.frmNovoCliente.resources
+D:\Anexos\obj\Debug\Anexos.FrmConsultarCliente.resources
+D:\Anexos\obj\Debug\Anexos.Properties.Resources.resources
+D:\Anexos\obj\Debug\Anexos.csproj.GenerateResource.cache
+D:\Anexos\obj\Debug\Anexos.csproj.CoreCompileInputs.cache
+D:\Anexos\obj\Debug\Anexos.csproj.Up2Date
+D:\Anexos\obj\Debug\Anexos.exe
+D:\Anexos\obj\Debug\Anexos.pdb
+D:\Anexos\obj\Debug\Anexos.Form5.resources
+D:\Anexos\obj\Debug\Anexos.Form6.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Anexos.exe.config
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Anexos.exe
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Anexos.pdb
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Google.Protobuf.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\MySql.Data.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Buffers.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Memory.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\ZstdSharp.dll
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Google.Protobuf.pdb
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Google.Protobuf.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\MySql.Data.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Buffers.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Memory.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.csproj.AssemblyReference.cache
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.Form1.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.frmHome.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.frmNovoCliente.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.FrmConsultarCliente.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.Form5.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.Form6.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.Properties.Resources.resources
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.csproj.GenerateResource.cache
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.csproj.CoreCompileInputs.cache
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.csproj.Up2Date
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.exe
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.pdb
+C:\Users\ingrid.slopes7\Desktop\anexos\backup - anexos\Anexos\obj\Debug\Anexos.PrimeiroAcesso.resources
