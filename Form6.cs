@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySqlX.XDevAPI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,5 +42,25 @@ namespace Anexos
         {
 
         }
+         private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            string termo = btnajuda.Text.ToLower();
+            var resultados = dados.Where(d => d.ToLower().Contains(termo)).ToList();
+
+            lstResultados.Items.Clear();
+
+            if (resultados.Any())
+            {
+                foreach (var item in resultados)
+                {
+                    lstResultados.Items.Add(item);
+                }
+            }
+            else
+            {
+                lstResultados.Items.Add("Nenhum resultado encontrado.");
+            }
+        }
+    }
     }
 }
