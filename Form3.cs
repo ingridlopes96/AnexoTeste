@@ -26,5 +26,10 @@ namespace Anexos
         {
 
         }
+
+        private void btnAjuda_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

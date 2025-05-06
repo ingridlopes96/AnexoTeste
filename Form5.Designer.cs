@@ -38,12 +38,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnStatusProcesso = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.btnAtualizarStatus = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -143,20 +138,13 @@
             this.btnStatusProcesso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStatusProcesso.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnStatusProcesso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnStatusProcesso.Location = new System.Drawing.Point(336, 220);
+            this.btnStatusProcesso.Location = new System.Drawing.Point(572, 125);
             this.btnStatusProcesso.Name = "btnStatusProcesso";
             this.btnStatusProcesso.Size = new System.Drawing.Size(114, 28);
             this.btnStatusProcesso.TabIndex = 13;
             this.btnStatusProcesso.Text = "&Pesquisar";
             this.btnStatusProcesso.UseVisualStyleBackColor = false;
             this.btnStatusProcesso.Click += new System.EventHandler(this.btnStatusProcesso_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(261, 281);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(279, 20);
-            this.textBox2.TabIndex = 22;
             // 
             // label2
             // 
@@ -165,51 +153,11 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Snow;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(96, 281);
+            this.label2.Location = new System.Drawing.Point(34, 179);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 18);
             this.label2.TabIndex = 23;
             this.label2.Text = "Informações do Processo";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
-            this.label4.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(122, 153);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 18);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "CPF";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(261, 153);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(279, 20);
-            this.textBox3.TabIndex = 25;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
-            this.label5.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.Snow;
-            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(122, 176);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 18);
-            this.label5.TabIndex = 26;
-            this.label5.Text = "Número do Processo";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(261, 179);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(279, 20);
-            this.textBox4.TabIndex = 27;
             // 
             // btnAtualizarStatus
             // 
@@ -217,7 +165,7 @@
             this.btnAtualizarStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtualizarStatus.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnAtualizarStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnAtualizarStatus.Location = new System.Drawing.Point(274, 329);
+            this.btnAtualizarStatus.Location = new System.Drawing.Point(550, 410);
             this.btnAtualizarStatus.Name = "btnAtualizarStatus";
             this.btnAtualizarStatus.Size = new System.Drawing.Size(136, 28);
             this.btnAtualizarStatus.TabIndex = 28;
@@ -231,7 +179,7 @@
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnFechar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnFechar.Location = new System.Drawing.Point(416, 329);
+            this.btnFechar.Location = new System.Drawing.Point(692, 410);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(96, 28);
             this.btnFechar.TabIndex = 29;
@@ -247,12 +195,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnAtualizarStatus);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnStatusProcesso);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
@@ -287,12 +230,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnStatusProcesso;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button btnAtualizarStatus;
         private System.Windows.Forms.Button btnFechar;
     }

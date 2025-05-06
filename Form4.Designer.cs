@@ -35,8 +35,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnNovoCliente = new System.Windows.Forms.Button();
+            this.txtConsulta = new System.Windows.Forms.TextBox();
+            this.btnConsultaCliente = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -109,28 +109,27 @@
             this.pictureBox5.Size = new System.Drawing.Size(767, 436);
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // textBox1
+            // txtConsulta
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 135);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(353, 20);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtConsulta.Location = new System.Drawing.Point(135, 135);
+            this.txtConsulta.Name = "txtConsulta";
+            this.txtConsulta.Size = new System.Drawing.Size(353, 20);
+            this.txtConsulta.TabIndex = 12;
             // 
-            // btnNovoCliente
+            // btnConsultaCliente
             // 
-            this.btnNovoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
-            this.btnNovoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNovoCliente.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNovoCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnNovoCliente.Location = new System.Drawing.Point(509, 129);
-            this.btnNovoCliente.Name = "btnNovoCliente";
-            this.btnNovoCliente.Size = new System.Drawing.Size(114, 28);
-            this.btnNovoCliente.TabIndex = 13;
-            this.btnNovoCliente.Text = "&Pesquisar";
-            this.btnNovoCliente.UseVisualStyleBackColor = false;
+            this.btnConsultaCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
+            this.btnConsultaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultaCliente.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.btnConsultaCliente.Location = new System.Drawing.Point(509, 129);
+            this.btnConsultaCliente.Name = "btnConsultaCliente";
+            this.btnConsultaCliente.Size = new System.Drawing.Size(114, 28);
+            this.btnConsultaCliente.TabIndex = 13;
+            this.btnConsultaCliente.Text = "&Pesquisar";
+            this.btnConsultaCliente.UseVisualStyleBackColor = false;
+            this.btnConsultaCliente.Click += new System.EventHandler(this.btnConsultaCliente_Click_1);
             // 
             // dataGridView1
             // 
@@ -147,8 +146,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnNovoCliente);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnConsultaCliente);
+            this.Controls.Add(this.txtConsulta);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
@@ -159,7 +158,6 @@
             this.Name = "FrmConsultarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consultar Cliente";
-            this.Load += new System.EventHandler(this.FrmConsultarCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -179,8 +177,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnNovoCliente;
+        private System.Windows.Forms.TextBox txtConsulta;
+        private System.Windows.Forms.Button btnConsultaCliente;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
