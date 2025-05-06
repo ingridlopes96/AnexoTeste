@@ -104,6 +104,7 @@
             this.btnAjuda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
             this.btnAjuda.Name = "btnAjuda";
             this.btnAjuda.UseVisualStyleBackColor = false;
+            this.btnAjuda.Click += new System.EventHandler(this.btnAjuda_Click);
             // 
             // label2
             // 
