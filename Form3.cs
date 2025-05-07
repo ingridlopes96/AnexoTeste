@@ -34,8 +34,7 @@ namespace Anexos
         private void btnAjuda_Click(object sender, EventArgs e)
         {
 
-<<<<<<< HEAD
-=======
+
             if (string.IsNullOrWhiteSpace(textBox1.Text) ||
         string.IsNullOrWhiteSpace(textBox2.Text) ||
         string.IsNullOrWhiteSpace(textBox3.Text) ||
@@ -133,7 +132,6 @@ namespace Anexos
             {
                 MessageBox.Show("Erro inesperado: " + ex.Message);
             }
->>>>>>> origin/jefferson
         }
     }
 }
