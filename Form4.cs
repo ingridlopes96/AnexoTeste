@@ -13,8 +13,6 @@ namespace Anexos
 {
     public partial class FrmConsultarCliente: Form
     {
-        private object dgvResultados;
-
         public FrmConsultarCliente()
         {
             InitializeComponent();
