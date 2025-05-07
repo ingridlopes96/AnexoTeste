@@ -35,17 +35,19 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtConsulta2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnStatusProcesso = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAtualizarStatus = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox3
@@ -111,12 +113,12 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Status do Processo";
             // 
-            // textBox1
+            // txtConsulta2
             // 
-            this.textBox1.Location = new System.Drawing.Point(261, 125);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtConsulta2.Location = new System.Drawing.Point(261, 125);
+            this.txtConsulta2.Name = "txtConsulta2";
+            this.txtConsulta2.Size = new System.Drawing.Size(279, 20);
+            this.txtConsulta2.TabIndex = 15;
             // 
             // label3
             // 
@@ -125,12 +127,11 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Snow;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(122, 125);
+            this.label3.Location = new System.Drawing.Point(186, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 18);
+            this.label3.Size = new System.Drawing.Size(53, 18);
             this.label3.TabIndex = 17;
-            this.label3.Text = "Nome do Cliente";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Text = "&Cliente";
             // 
             // btnStatusProcesso
             // 
@@ -138,7 +139,7 @@
             this.btnStatusProcesso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStatusProcesso.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnStatusProcesso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnStatusProcesso.Location = new System.Drawing.Point(572, 125);
+            this.btnStatusProcesso.Location = new System.Drawing.Point(572, 119);
             this.btnStatusProcesso.Name = "btnStatusProcesso";
             this.btnStatusProcesso.Size = new System.Drawing.Size(114, 28);
             this.btnStatusProcesso.TabIndex = 13;
@@ -153,7 +154,7 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Snow;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(34, 179);
+            this.label2.Location = new System.Drawing.Point(32, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 18);
             this.label2.TabIndex = 23;
@@ -171,7 +172,6 @@
             this.btnAtualizarStatus.TabIndex = 28;
             this.btnAtualizarStatus.Text = "&Atualizar Status";
             this.btnAtualizarStatus.UseVisualStyleBackColor = false;
-            this.btnAtualizarStatus.Click += new System.EventHandler(this.btnAtualizarStatus_Click);
             // 
             // btnFechar
             // 
@@ -185,7 +185,14 @@
             this.btnFechar.TabIndex = 29;
             this.btnFechar.Text = "&Fechar";
             this.btnFechar.UseVisualStyleBackColor = false;
-            this.btnFechar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(44, 209);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(326, 89);
+            this.dataGridView2.TabIndex = 30;
             // 
             // Form5
             // 
@@ -193,12 +200,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnAtualizarStatus);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnStatusProcesso);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtConsulta2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox2);
@@ -207,13 +215,12 @@
             this.Controls.Add(this.pictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form5";
-            this.Text = "Status";
-            this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,11 +234,12 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtConsulta2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnStatusProcesso;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAtualizarStatus;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }
