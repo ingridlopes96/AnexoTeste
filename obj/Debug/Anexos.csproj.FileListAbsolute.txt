@@ -242,3 +242,4 @@ C:\Users\jefferson.asouza14\Desktop\AnexoTeste\obj\Debug\Anexos.csproj.Up2Date
 C:\Users\jefferson.asouza14\Desktop\AnexoTeste\obj\Debug\Anexos.exe
 C:\Users\jefferson.asouza14\Desktop\AnexoTeste\obj\Debug\Anexos.pdb
 >>>>>>> origin/jefferson
+C:\Users\ingrid.slopes7\Desktop\AnexoTeste\obj\Debug\Anexos.FormEditarCliente.resources

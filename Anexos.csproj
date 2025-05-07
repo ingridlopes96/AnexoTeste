@@ -137,6 +137,12 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditarCliente.Designer.cs">
+      <DependentUpon>FormEditarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrimeiroAcesso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditarCliente.resx">
+      <DependentUpon>FormEditarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrimeiroAcesso.resx">
       <DependentUpon>PrimeiroAcesso.cs</DependentUpon>
