@@ -66,20 +66,6 @@ namespace Anexos
             BaixarArquivoPorId(Convert.ToInt32(dgvArquivos.Rows[e.RowIndex].Cells[0].Value), true);
         }
 
-        private void btnDownload_Click(object sender, EventArgs e)
-        {
-            if (dgvArquivos.SelectedRows.Count > 0)
-            {
-                int id = Convert.ToInt32(dgvArquivos.SelectedRows[0].Cells[0].Value);
-                BaixarArquivoPorId(id, false);
-            }
-            else
-            {
-                MessageBox.Show("Selecione um arquivo na tabela.");
-            }
-        }
-
-        // Correção importante para suportar arquivos grandes como PDF
         private void BaixarArquivoPorId(int id, bool salvarNoDesktop)
         {
             using (MySqlConnection conn = new MySqlConnection(conexao))
@@ -88,33 +74,46 @@ namespace Anexos
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 conn.Open();
-                using (MySqlDataReader reader = cmd.ExecuteReader())
+
+                using (MySqlDataReader reader = cmd.ExecuteReader(CommandBehavior.SequentialAccess))
                 {
                     if (reader.Read())
                     {
                         string nome = reader.GetString("nome_arquivo");
-                        long tamanho = reader.GetBytes(1, 0, null, 0, 0);
-                        byte[] dados = new byte[tamanho];
-                        reader.GetBytes(1, 0, dados, 0, (int)tamanho);
 
-                        string caminho;
-                        if (salvarNoDesktop)
+                        const int bufferSize = 1024 * 4; // 4KB buffer
+                        byte[] buffer = new byte[bufferSize];
+                        long bytesLidos = 0;
+                        long offset = 0;
+
+                        using (MemoryStream ms = new MemoryStream())
                         {
-                            caminho = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), nome);
-                        }
-                        else
-                        {
-                            using (SaveFileDialog salvar = new SaveFileDialog())
+                            while ((bytesLidos = reader.GetBytes(1, offset, buffer, 0, buffer.Length)) > 0)
                             {
-                                salvar.FileName = nome;
-                                if (salvar.ShowDialog() != DialogResult.OK)
-                                    return;
-
-                                caminho = salvar.FileName;
+                                ms.Write(buffer, 0, (int)bytesLidos);
+                                offset += bytesLidos;
                             }
+
+                            string caminho;
+                            if (salvarNoDesktop)
+                            {
+                                caminho = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), nome);
+                            }
+                            else
+                            {
+                                using (SaveFileDialog salvar = new SaveFileDialog())
+                                {
+                                    salvar.FileName = nome;
+                                    if (salvar.ShowDialog() != DialogResult.OK)
+                                        return;
+
+                                    caminho = salvar.FileName;
+                                }
+                            }
+
+                            File.WriteAllBytes(caminho, ms.ToArray());
                         }
 
-                        File.WriteAllBytes(caminho, dados);
                         MessageBox.Show("Arquivo salvo com sucesso!");
                     }
                     else
