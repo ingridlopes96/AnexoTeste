@@ -213,6 +213,13 @@ namespace Anexos
                 }
             }
         }
+
+        private void btnUpload_Click(object sender, EventArgs e)
+        {
+            UPLOAD UPLOAD = new UPLOAD();
+            UPLOAD.Show();
+
+        }
     }
 }
 
