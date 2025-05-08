@@ -32,7 +32,7 @@ namespace Anexos
             {
                 using (var conexao = Conexao.obterConexao())
                 {
-                    string query = "SELECT id_cliente, nome, cpf FROM cadastro_cliente WHERE cpf LIKE @cpf";
+                    string query = "SELECT id_cliente, nome, cpf FROM cliente WHERE cpf LIKE @cpf";
                     MySqlCommand cmd = new MySqlCommand(query, conexao);
                     cmd.Parameters.AddWithValue("@cpf", "%" + consultaCliente + "%");
 
