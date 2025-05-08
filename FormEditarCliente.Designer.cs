@@ -436,7 +436,7 @@
             this.btnSalvarEdicao.TabIndex = 75;
             this.btnSalvarEdicao.Text = "&Salvar";
             this.btnSalvarEdicao.UseVisualStyleBackColor = false;
-            this.btnSalvarEdicao.Click += new System.EventHandler(this.btnSalvarEdicao_Click);
+            this.btnSalvarEdicao.Click += new System.EventHandler(this.btnSalvarEdicao_Click_1);
             // 
             // FormEditarCliente
             // 
