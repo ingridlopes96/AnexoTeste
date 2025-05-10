@@ -39,6 +39,7 @@
             this.btnConsultaCliente = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -155,12 +156,27 @@
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.btnExcluir.Location = new System.Drawing.Point(500, 402);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(114, 28);
+            this.btnExcluir.TabIndex = 16;
+            this.btnExcluir.Text = "&Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
             // FrmConsultarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.btnConsultaCliente);
@@ -198,5 +214,6 @@
         private System.Windows.Forms.Button btnConsultaCliente;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnExcluir;
     }
 }

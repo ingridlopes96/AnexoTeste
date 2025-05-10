@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Anexos
 {
-    public partial class FrmConsultarCliente: Form
+    public partial class FrmConsultarCliente : Form
     {
         private object dgvResultados;
 
@@ -80,34 +79,71 @@ namespace Anexos
 
         private void AtualizarDataGridView()
         {
-            // Método para atualizar a fonte de dados do dataGridView3
-            // Exemplo:
-            dataGridView3.DataSource = ObterDadosAtualizados();
+            try
+            {
+                using (var conexao = Conexao.obterConexao())
+                {
+                    string query = "SELECT id_cliente, nome, profissao, data_nasc, rg, endereco, numero_casa, complemento, bairro, cidade, estado, cep, telefone, celular, email FROM cliente";
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, conexao);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+
+                    dataGridView3.DataSource = dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao atualizar dados: " + ex.Message);
+            }
         }
 
-        private DataTable ObterDadosAtualizados()
+        private void btnExcluir_Click(object sender, EventArgs e)
         {
-            // Método para obter os dados atualizados do banco de dados ou outra fonte
-            DataTable dt = new DataTable();
-            // Preencha o DataTable com os dados atualizados
-            return dt;
-        }
+            if (dataGridView3.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Selecione um cliente para excluir.");
+                return;
+            }
 
+            var resultado = MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.No) return;
+
+            string idCliente = dataGridView3.SelectedRows[0].Cells["id_cliente"].Value.ToString();
+
+            try
+            {
+                using (var conexao = Conexao.obterConexao())
+                {
+                    string query = "DELETE FROM cliente WHERE id_cliente = @id_cliente";
+                    MySqlCommand cmd = new MySqlCommand(query, conexao);
+                    cmd.Parameters.AddWithValue("@id_cliente", idCliente);
+
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Cliente excluído com sucesso.");
+                        AtualizarDataGridView();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Cliente não encontrado.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao excluir cliente: " + ex.Message);
+            }
+        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
-             
                 string cpfSelecionado = dataGridView3.Rows[e.RowIndex].Cells["cpf"].Value.ToString();
-                // Passa o CPF selecionado para o formulário de edição
-                //FormEditarCliente editarCliente = new FormEditarCliente();
-                //editarCliente.SetCpf(cpfSelecionado);
-                //editarCliente.Show();
             }
-           
         }
     }
 }
-

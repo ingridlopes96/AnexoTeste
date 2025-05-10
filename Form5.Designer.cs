@@ -42,6 +42,7 @@
             this.btnAtualizarStatus = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.btnSalvar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -154,11 +155,11 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Snow;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(32, 167);
+            this.label2.Location = new System.Drawing.Point(133, 194);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(162, 18);
+            this.label2.Size = new System.Drawing.Size(53, 18);
             this.label2.TabIndex = 23;
-            this.label2.Text = "Informações do Processo";
+            this.label2.Text = "Cliente";
             // 
             // btnAtualizarStatus
             // 
@@ -166,12 +167,13 @@
             this.btnAtualizarStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtualizarStatus.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnAtualizarStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnAtualizarStatus.Location = new System.Drawing.Point(550, 410);
+            this.btnAtualizarStatus.Location = new System.Drawing.Point(430, 410);
             this.btnAtualizarStatus.Name = "btnAtualizarStatus";
             this.btnAtualizarStatus.Size = new System.Drawing.Size(136, 28);
             this.btnAtualizarStatus.TabIndex = 28;
             this.btnAtualizarStatus.Text = "&Atualizar Status";
             this.btnAtualizarStatus.UseVisualStyleBackColor = false;
+            this.btnAtualizarStatus.Click += new System.EventHandler(this.btnAtualizarStatus_Click);
             // 
             // btnFechar
             // 
@@ -185,14 +187,29 @@
             this.btnFechar.TabIndex = 29;
             this.btnFechar.Text = "&Fechar";
             this.btnFechar.UseVisualStyleBackColor = false;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(44, 209);
+            this.dataGridView2.Location = new System.Drawing.Point(136, 228);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(326, 89);
+            this.dataGridView2.Size = new System.Drawing.Size(550, 64);
             this.dataGridView2.TabIndex = 30;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSalvar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.btnSalvar.Location = new System.Drawing.Point(581, 410);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(96, 28);
+            this.btnSalvar.TabIndex = 31;
+            this.btnSalvar.Text = "&Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
             // Form5
             // 
@@ -200,6 +217,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnAtualizarStatus);
@@ -241,5 +259,6 @@
         private System.Windows.Forms.Button btnAtualizarStatus;
         private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }

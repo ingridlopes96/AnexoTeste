@@ -54,7 +54,7 @@ namespace Anexos
 
         private void btnAjuda_Click(object sender, EventArgs e)
         {
-            Form6 ajuda = new Form6();
+            FormAjuda ajuda = new FormAjuda();
             ajuda.Show();
         }
     }
