@@ -244,6 +244,19 @@ C:\Users\jefferson.asouza14\Desktop\AnexoTeste\obj\Debug\Anexos.pdb
 >>>>>>> origin/jefferson
 C:\Users\ingrid.slopes7\Desktop\AnexoTeste\obj\Debug\Anexos.FormEditarCliente.resources
 C:\Users\ingrid.slopes7\Desktop\AnexoTeste\obj\Debug\Anexos.FormAjuda.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.AssemblyReference.cache
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Form1.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.frmNovoCliente.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.FrmConsultarCliente.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Form5.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Form6.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.FormEditarCliente.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.PrimeiroAcesso.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Properties.Resources.resources
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.GenerateResource.cache
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.exe
+C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.pdb
+>>>>>>> ingrid
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\Anexos.exe.config
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\Anexos.exe
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\Anexos.pdb
@@ -279,21 +292,10 @@ C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\System.Memory.xml
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.AssemblyReference.cache
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Form1.resources
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.frmHome.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.frmNovoCliente.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.FrmConsultarCliente.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Form5.resources
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.FormAjuda.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.FormEditarCliente.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.PrimeiroAcesso.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.Properties.Resources.resources
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.GenerateResource.cache
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.CoreCompileInputs.cache
 C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.csproj.Up2Date
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.exe
-C:\Users\ingrid.slopes7\Desktop\NovoClone\AnexoTeste\obj\Debug\Anexos.pdb
 C:\Users\brenda.gsilva12\Documents\AnexoTeste\bin\Debug\Anexos.exe.config
 C:\Users\brenda.gsilva12\Documents\AnexoTeste\bin\Debug\Anexos.exe
 C:\Users\brenda.gsilva12\Documents\AnexoTeste\bin\Debug\Anexos.pdb

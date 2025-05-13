@@ -31,9 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UPLOAD));
             this.btnDownload = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
-            this.btnListar = new System.Windows.Forms.Button();
+
             this.dgvArquivos = new System.Windows.Forms.DataGridView();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArquivos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+
             this.SuspendLayout();
             // 
             // btnDownload
@@ -60,45 +65,72 @@
             this.btnUpload.UseVisualStyleBackColor = true;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click_1);
             // 
-            // btnListar
-            // 
-            this.btnListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnListar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
-            this.btnListar.Image = ((System.Drawing.Image)(resources.GetObject("btnListar.Image")));
-            this.btnListar.Location = new System.Drawing.Point(74, 45);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(144, 51);
-            this.btnListar.TabIndex = 9;
-            this.btnListar.UseVisualStyleBackColor = true;
-            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
-            // 
+
             // dgvArquivos
             // 
             this.dgvArquivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArquivos.Location = new System.Drawing.Point(87, 134);
+            this.dgvArquivos.Location = new System.Drawing.Point(87, 102);
+
             this.dgvArquivos.Name = "dgvArquivos";
             this.dgvArquivos.Size = new System.Drawing.Size(564, 161);
             this.dgvArquivos.TabIndex = 10;
             this.dgvArquivos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvArquivos_CellContentClick);
             // 
+
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox5.Location = new System.Drawing.Point(23, 2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(91, 78);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 33;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox2.Location = new System.Drawing.Point(-6, 38);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(750, 10);
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            // 
+
             // UPLOAD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(735, 434);
+
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.dgvArquivos);
-            this.Controls.Add(this.btnListar);
+
             this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.btnDownload);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "UPLOAD";
             this.RightToLeftLayout = true;
+
             this.Text = "UPLOAD";
             ((System.ComponentModel.ISupportInitialize)(this.dgvArquivos)).EndInit();
+
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "UPLOAD";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArquivos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+
             this.ResumeLayout(false);
 
         }
@@ -107,7 +139,10 @@
 
         private System.Windows.Forms.Button btnDownload;
         private System.Windows.Forms.Button btnUpload;
-        private System.Windows.Forms.Button btnListar;
+
         private System.Windows.Forms.DataGridView dgvArquivos;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
+
     }
 }

@@ -63,7 +63,9 @@
             this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox2.Location = new System.Drawing.Point(-53, 32);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(910, 10);
+
+            this.pictureBox2.Size = new System.Drawing.Size(1066, 10);
+
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
             // 
@@ -74,7 +76,9 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Snow;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(55, 118);
+
+            this.label3.Location = new System.Drawing.Point(55, 135);
+
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 18);
             this.label3.TabIndex = 35;
@@ -86,7 +90,9 @@
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnEditar.Location = new System.Drawing.Point(58, 157);
+
+            this.btnEditar.Location = new System.Drawing.Point(58, 190);
+
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(407, 28);
             this.btnEditar.TabIndex = 36;
@@ -100,7 +106,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button1.Location = new System.Drawing.Point(58, 191);
+
+            this.button1.Location = new System.Drawing.Point(58, 224);
+
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(407, 28);
             this.button1.TabIndex = 37;
@@ -114,7 +122,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button2.Location = new System.Drawing.Point(58, 225);
+
+            this.button2.Location = new System.Drawing.Point(58, 258);
+
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(407, 28);
             this.button2.TabIndex = 38;
@@ -128,7 +138,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(58, 259);
+
+            this.button3.Location = new System.Drawing.Point(58, 292);
+
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(407, 28);
             this.button3.TabIndex = 39;
@@ -142,7 +154,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button4.Location = new System.Drawing.Point(58, 293);
+
+            this.button4.Location = new System.Drawing.Point(58, 326);
+
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(407, 28);
             this.button4.TabIndex = 40;
@@ -156,7 +170,9 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button5.Location = new System.Drawing.Point(58, 327);
+
+            this.button5.Location = new System.Drawing.Point(58, 360);
+
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(407, 28);
             this.button5.TabIndex = 41;
@@ -170,7 +186,9 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.button6.Location = new System.Drawing.Point(58, 361);
+
+            this.button6.Location = new System.Drawing.Point(58, 394);
+
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(407, 28);
             this.button6.TabIndex = 42;
@@ -197,7 +215,8 @@
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.btnFechar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
-            this.btnFechar.Location = new System.Drawing.Point(677, 406);
+
+
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(96, 28);
             this.btnFechar.TabIndex = 33;
@@ -211,7 +230,9 @@
             this.lblDescricao.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold);
             this.lblDescricao.ForeColor = System.Drawing.Color.Snow;
             this.lblDescricao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblDescricao.Location = new System.Drawing.Point(502, 157);
+
+            this.lblDescricao.Location = new System.Drawing.Point(558, 190);
+
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(56, 18);
             this.lblDescricao.TabIndex = 43;
@@ -221,8 +242,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1007, 501);
+
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -236,7 +260,12 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox2);
+
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "FormAjuda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+
             this.Text = "FormAjuda";
             this.Load += new System.EventHandler(this.FormAjuda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

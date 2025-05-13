@@ -162,6 +162,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
@@ -192,6 +193,7 @@
     </Compile>
     <EmbeddedResource Include="UPLOAD.resx">
       <DependentUpon>UPLOAD.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -212,9 +214,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="Dump20250505 %281%29\anexos_cliente.sql" />
-    <Content Include="Dump20250505 %281%29\anexos_login.sql" />
-    <Content Include="Dump20250505 %281%29\anexos_usuarios.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_ajuda.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_arquivos.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_cliente.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_login.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_status_processo.sql" />
+    <Content Include="Dump20250512 %283%29\anexos_usuarios.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
