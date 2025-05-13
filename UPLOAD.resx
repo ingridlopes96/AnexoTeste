@@ -121,7 +121,7 @@
   <data name="btnDownload.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKEAAAA4CAYAAACVOJg9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAADH5JREFUeF7tnPl3U9Uahu+fwC9A7UAHSltok85N2pwhMnlB71IRBwQRQUYnZChw
+        vwAADr8BOAVTJAAADH5JREFUeF7tnPl3U9Uahu+fwC9A7UAHSltok85N2pwhMnlB71IRBwQRQUYnZChw
         b50FpRVBBAsytKUgFGRQAZktgoii4ogMVoo4i+CAghV477f32UlP0lNWWpvBun94VkjS7HTlPLx595fT
         /KtD5zRIJOFESigJO1JCSdiREkrCjpRQEnakhJKwIyWUhB0poSTsSAklYSeiJOwYlcmJviLfS4wPeQGS
         i9iAyLEkrgnZAZKFLgGRaUl8E+wBYuMkCKxe20gmrBImxV6JmzPK8LTrY1S5f8Ay9/eodn+L5e5vsML9
@@ -180,7 +180,7 @@
   <data name="btnUpload.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAI0AAAA0CAYAAAC3m7sYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAC0JJREFUeF7tnPl3FFUahudPGOcMQjaSGEgg6XTM2p3uuveWoM6ZI8cZD4rruKDE
+        vwAADr8BOAVTJAAAC0JJREFUeF7tnPl3FFUahudPGOcMQjaSGEgg6XTM2p3uuveWoM6ZI8cZD4rruKDE
         sLgNLiA4CgOiKAODsktYEgzIphL2LQSEoCgKgsgiIG6IiiiLIPDOd29Xd7rTlUyqlxC0fnhPryFF6jnP
         feur6v7DH9t3gR07VmJDY8dybGjsWI4NjR3LsaGxYzk2NHYsx4bGjuW0GjTtOuSpJCYUB5IUkqIWphDJ
         LUqBaVLCkt/CXI2OLUpeWFJN42xhcpEWFLO/bWsnbtBclXwNbnWMxhjPTswUxzBLHMVs8Q0qxVeoEl9i
@@ -234,7 +234,7 @@
   <data name="btnListar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKUAAAA4CAYAAACc0zhHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAEZpJREFUeF7tnedfVGfexp8/IS82uywIAYFxQAacQRhgThmNil1REQtWbBiNJRYi
+        vwAADr8BOAVTJAAAEZpJREFUeF7tnedfVGfexp8/IS82uywIAYFxQAacQRhgThmNil1REQtWbBiNJRYi
         Bo2oa42iBgtW7Fm7xt4TY4lGY4uuiTHJxvSiG03UZK/nd9/nzDDlgMAMMG7Oi+8HmHLm+Jkv17nu3zmD
         //fc34zQ0QkkdCl1Ag5dSp2AQ5dSJ+DQpdQJOHQpdQKOOpUy6O+JnPAQEcbQdJUWXsSENtegGSfWjRe9
         aBjaVIMmTuLcsLth4sgaSJx4N0Q3EjiCBjZOIzfSvDCHpmqQwrG4YXUjkZOsQRKnsRuNOcYQM+r9PQ5a

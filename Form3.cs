@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
@@ -16,6 +17,7 @@ namespace Anexos
 {
     public partial class frmNovoCliente : Form
     {
+        private string conexao = "server=localhost;user=root;password=senacJBQ;database=anexos;port=3307";
         public frmNovoCliente()
         {
             InitializeComponent();
@@ -133,6 +135,10 @@ namespace Anexos
                 MessageBox.Show("Erro inesperado: " + ex.Message);
             }
         }
+
+             
+
+        
     }
 }
 

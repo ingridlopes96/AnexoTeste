@@ -512,6 +512,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Name = "FormEditarCliente";
             this.Text = "FormEditarCliente";
+            this.Load += new System.EventHandler(this.FormEditarCliente_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

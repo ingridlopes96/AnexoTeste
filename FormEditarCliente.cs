@@ -216,8 +216,13 @@ namespace Anexos
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
-            UPLOAD UPLOAD = new UPLOAD();
+            UPLOAD UPLOAD = new UPLOAD(id);
             UPLOAD.Show();
+
+        }
+
+        private void FormEditarCliente_Load_1(object sender, EventArgs e)
+        {
 
         }
     }
