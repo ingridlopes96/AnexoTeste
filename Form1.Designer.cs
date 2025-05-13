@@ -87,10 +87,11 @@
             // 
             // btnAcessar
             // 
+            this.btnAcessar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcessar.Image = ((System.Drawing.Image)(resources.GetObject("btnAcessar.Image")));
-            this.btnAcessar.Location = new System.Drawing.Point(160, 252);
+            this.btnAcessar.Location = new System.Drawing.Point(137, 253);
             this.btnAcessar.Name = "btnAcessar";
-            this.btnAcessar.Size = new System.Drawing.Size(117, 48);
+            this.btnAcessar.Size = new System.Drawing.Size(140, 53);
             this.btnAcessar.TabIndex = 5;
             this.btnAcessar.UseVisualStyleBackColor = true;
             this.btnAcessar.Click += new System.EventHandler(this.btnAcessar_Click);
@@ -124,6 +125,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "Form1";

@@ -64,6 +64,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnSalvarEdicao = new System.Windows.Forms.Button();
+            this.btnUpload = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -438,12 +440,41 @@
             this.btnSalvarEdicao.UseVisualStyleBackColor = false;
             this.btnSalvarEdicao.Click += new System.EventHandler(this.btnSalvarEdicao_Click_1);
             // 
+            // btnUpload
+            // 
+            this.btnUpload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
+            this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpload.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.btnUpload.Location = new System.Drawing.Point(52, 640);
+            this.btnUpload.Name = "btnUpload";
+            this.btnUpload.Size = new System.Drawing.Size(114, 28);
+            this.btnUpload.TabIndex = 76;
+            this.btnUpload.Text = "&Upload";
+            this.btnUpload.UseVisualStyleBackColor = false;
+            this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcluir.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(61)))), ((int)(((byte)(255)))));
+            this.btnExcluir.Location = new System.Drawing.Point(355, 640);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(114, 28);
+            this.btnExcluir.TabIndex = 77;
+            this.btnExcluir.Text = "&Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
+            // 
             // FormEditarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(23)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(882, 691);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.btnSalvarEdicao);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.label17);
@@ -481,6 +512,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Name = "FormEditarCliente";
             this.Text = "FormEditarCliente";
+            this.Load += new System.EventHandler(this.FormEditarCliente_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -526,5 +558,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnSalvarEdicao;
+        private System.Windows.Forms.Button btnUpload;
+        private System.Windows.Forms.Button btnExcluir;
     }
 }

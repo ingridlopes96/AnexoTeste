@@ -66,6 +66,8 @@ namespace Anexos
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+
+
             if (dataGridView3 != null && dataGridView3.CurrentRow != null)
             {
                 string idSelecionado = dataGridView3.CurrentRow.Cells["id_cliente"].Value.ToString();
@@ -144,6 +146,11 @@ namespace Anexos
             {
                 string cpfSelecionado = dataGridView3.Rows[e.RowIndex].Cells["cpf"].Value.ToString();
             }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
