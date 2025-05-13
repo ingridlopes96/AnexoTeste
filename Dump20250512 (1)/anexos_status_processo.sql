@@ -16,28 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `login`
+-- Table structure for table `status_processo`
 --
 
-DROP TABLE IF EXISTS `login`;
+DROP TABLE IF EXISTS `status_processo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `login` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `usuario` varchar(25) NOT NULL,
-  `senha` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `status_processo` (
+  `id_status` int NOT NULL AUTO_INCREMENT,
+  `id_cliente` int DEFAULT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_status`),
+  KEY `id_cliente` (`id_cliente`),
+  CONSTRAINT `status_processo_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `cliente` (`id_cliente`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `login`
+-- Dumping data for table `status_processo`
 --
 
-LOCK TABLES `login` WRITE;
-/*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES (1,'admin','12345678'),(2,'beatriz','12345678'),(3,'ingrid','12345678'),(4,'agda','12345678'),(5,'brenda','12345678'),(6,'teste','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'),(7,'lua','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'),(8,'vitor','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'),(9,'be','5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5');
-/*!40000 ALTER TABLE `login` ENABLE KEYS */;
+LOCK TABLES `status_processo` WRITE;
+/*!40000 ALTER TABLE `status_processo` DISABLE KEYS */;
+INSERT INTO `status_processo` VALUES (1,21,'iniciado');
+/*!40000 ALTER TABLE `status_processo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-05 19:03:46
+-- Dump completed on 2025-05-12 21:36:37
