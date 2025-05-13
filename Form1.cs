@@ -21,7 +21,7 @@ namespace Anexos
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+        
         }
 
         private void btnAcessar_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace Anexos
                 {
                     MessageBox.Show("Usuario ou senha invalidos");
                 }
-            }
+            } this.Hide(); // Esconde o formulário de login
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace Anexos
             PrimeiroAcesso primeiroAcesso = new PrimeiroAcesso();
             primeiroAcesso.Show();
             this.Hide(); // Esconde o formulário de login
-
+            
         }
     }
 }
