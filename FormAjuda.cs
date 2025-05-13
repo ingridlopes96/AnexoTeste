@@ -71,21 +71,19 @@ namespace Anexos
         }
 
         // Botões que chamam as perguntas específicas
-        private void button1_Click(object sender, EventArgs e) => MostrarResposta(1);
-        private void button2_Click(object sender, EventArgs e) => MostrarResposta(2);
-        private void button3_Click(object sender, EventArgs e) => MostrarResposta(3);
-        private void button4_Click(object sender, EventArgs e) => MostrarResposta(4);
-        private void button5_Click(object sender, EventArgs e) => MostrarResposta(5);
-        private void button6_Click(object sender, EventArgs e) => MostrarResposta(6);
+        private void btnEditar_Click(object sender, EventArgs e) => MostrarResposta(1);
+        private void button1_Click(object sender, EventArgs e) => MostrarResposta(2);
+        private void button2_Click(object sender, EventArgs e) => MostrarResposta(3);
+        private void button3_Click(object sender, EventArgs e) => MostrarResposta(4);
+        private void button4_Click(object sender, EventArgs e) => MostrarResposta(5);
+        private void button5_Click(object sender, EventArgs e) => MostrarResposta(6);
+        private void button6_Click(object sender, EventArgs e) => MostrarResposta(7);
 
         private void label1_Click(object sender, EventArgs e)
         {
             // Evento vazio, pode ser removido se não for usado
         }
 
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            // Você pode implementar edição depois
-        }
+       
     }
 }
