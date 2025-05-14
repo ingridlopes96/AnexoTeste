@@ -3154,13 +3154,13 @@
     <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 14.25pt, style=Bold</value>
+    <value>Calibri, 21.75pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 98</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 23</value>
+    <value>286, 36</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -3214,13 +3214,13 @@
     <value>True</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 148</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 18</value>
+    <value>200, 33</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3241,7 +3241,7 @@
     <value>29</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 148</value>
+    <value>251, 159</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 20</value>
@@ -3265,13 +3265,13 @@
     <value>True</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 187</value>
+    <value>45, 181</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 18</value>
+    <value>119, 33</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -3292,7 +3292,7 @@
     <value>27</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 185</value>
+    <value>161, 190</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 20</value>
@@ -3316,13 +3316,13 @@
     <value>True</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 222</value>
+    <value>45, 213</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 18</value>
+    <value>207, 33</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -3343,7 +3343,7 @@
     <value>25</value>
   </data>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 223</value>
+    <value>251, 222</value>
   </data>
   <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
@@ -3367,16 +3367,16 @@
     <value>True</value>
   </data>
   <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 261</value>
+    <value>49, 246</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 18</value>
+    <value>47, 33</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -3400,16 +3400,16 @@
     <value>True</value>
   </data>
   <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 261</value>
+    <value>303, 246</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 18</value>
+    <value>55, 33</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -3430,7 +3430,7 @@
     <value>22</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 257</value>
+    <value>98, 254</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 20</value>
@@ -3451,7 +3451,7 @@
     <value>21</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 257</value>
+    <value>364, 254</value>
   </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 20</value>
@@ -3475,16 +3475,16 @@
     <value>True</value>
   </data>
   <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 300</value>
+    <value>49, 277</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 18</value>
+    <value>120, 33</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -3505,7 +3505,7 @@
     <value>19</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 298</value>
+    <value>169, 288</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 20</value>
@@ -3529,16 +3529,16 @@
     <value>True</value>
   </data>
   <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 298</value>
+    <value>489, 277</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 18</value>
+    <value>108, 33</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3559,7 +3559,7 @@
     <value>17</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>500, 298</value>
+    <value>603, 289</value>
   </data>
   <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 20</value>
@@ -3583,16 +3583,16 @@
     <value>True</value>
   </data>
   <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 337</value>
+    <value>49, 311</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 18</value>
+    <value>175, 33</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3613,7 +3613,7 @@
     <value>15</value>
   </data>
   <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>148, 335</value>
+    <value>225, 321</value>
   </data>
   <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 20</value>
@@ -3637,16 +3637,16 @@
     <value>True</value>
   </data>
   <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 337</value>
+    <value>472, 311</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 18</value>
+    <value>85, 33</value>
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -3667,7 +3667,7 @@
     <value>13</value>
   </data>
   <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 337</value>
+    <value>563, 321</value>
   </data>
   <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 20</value>
@@ -3691,16 +3691,16 @@
     <value>True</value>
   </data>
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 373</value>
+    <value>49, 344</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 18</value>
+    <value>91, 33</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -3721,7 +3721,7 @@
     <value>11</value>
   </data>
   <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 373</value>
+    <value>143, 351</value>
   </data>
   <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 20</value>
@@ -3745,16 +3745,16 @@
     <value>True</value>
   </data>
   <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 373</value>
+    <value>427, 344</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 18</value>
+    <value>90, 33</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -3850,7 +3850,7 @@
     <value>TO</value>
   </data>
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>478, 370</value>
+    <value>521, 351</value>
   </data>
   <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 21</value>
@@ -3874,16 +3874,16 @@
     <value>True</value>
   </data>
   <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 411</value>
+    <value>49, 376</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 18</value>
+    <value>56, 33</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -3904,7 +3904,7 @@
     <value>7</value>
   </data>
   <data name="textBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 407</value>
+    <value>111, 388</value>
   </data>
   <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 20</value>
@@ -3928,16 +3928,16 @@
     <value>True</value>
   </data>
   <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 411</value>
+    <value>246, 380</value>
   </data>
   <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 18</value>
+    <value>113, 33</value>
   </data>
   <data name="label15.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -3958,7 +3958,7 @@
     <value>5</value>
   </data>
   <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 407</value>
+    <value>361, 389</value>
   </data>
   <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 20</value>
@@ -3982,16 +3982,16 @@
     <value>True</value>
   </data>
   <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 409</value>
+    <value>513, 384</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 18</value>
+    <value>94, 33</value>
   </data>
   <data name="label16.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -4012,7 +4012,7 @@
     <value>3</value>
   </data>
   <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 407</value>
+    <value>614, 393</value>
   </data>
   <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 20</value>
@@ -4036,16 +4036,16 @@
     <value>True</value>
   </data>
   <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 11.25pt, style=Bold</value>
+    <value>Calibri, 20.25pt, style=Bold</value>
   </data>
   <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 446</value>
+    <value>49, 414</value>
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 18</value>
+    <value>77, 33</value>
   </data>
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -4066,7 +4066,7 @@
     <value>1</value>
   </data>
   <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 444</value>
+    <value>132, 423</value>
   </data>
   <data name="textBox13.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 20</value>
